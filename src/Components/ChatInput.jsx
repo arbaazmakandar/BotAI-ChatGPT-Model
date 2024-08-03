@@ -39,7 +39,6 @@ export default function ChatInput({
       <Box component={"form"} onSubmit={handleSubmit}>
         <Stack direction={"row"} spacing={{ xs: 0.5, md: 2 }}>
           <TextField
-            placeholder="Message Bot AI..."
             sx={{
               flex: 1,
               bgcolor: "primary.light",
