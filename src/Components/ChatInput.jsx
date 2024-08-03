@@ -56,7 +56,6 @@ export default function ChatInput({
             inputRef={inputRef}
           />
           <Button
-            variant="contained"
             type="submit"
             sx={{
               fontSize: { xs: 12, md: 16 },
