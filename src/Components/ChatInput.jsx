@@ -72,7 +72,6 @@ export default function ChatInput({
           <Button
             variant="outlined"
             onClick={handleSave}
-            disabled={!chat.length > 0}
             sx={{
               fontSize: { xs: 12, md: 16 },
               "@media (max-width:767px)": {
